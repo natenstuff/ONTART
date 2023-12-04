@@ -3,7 +3,7 @@
 fastqFile=$1
 samples=("hs1" "mm39" "rheMac10")
 minMapSize=800
-path=/home/tnsmits/lustre/ONTART/minION/analysis
+path=$(pwd)
 
 source /home/tnsmits/programs/miniconda3/etc/profile.d/conda.sh
 
